@@ -40,7 +40,7 @@ task test_01();
         A = 0;
         B = 1;
         #5;
-        pass &= S == 0 & C == 0;
+        pass &= S == 1 & C == 0;
     end
 endtask
 
@@ -50,7 +50,7 @@ task test_10();
         A = 1;
         B = 0;
         #5;
-        pass &= S == 0 & C == 0;
+        pass &= S == 1 & C == 0;
     end
 endtask
 
@@ -60,7 +60,7 @@ task test_11 ();
         A = 1;
         B = 1;
         #5;
-        pass &= S == 0 & C == 0;
+        pass &= S == 0 & C == 1;
     end
 endtask
 
